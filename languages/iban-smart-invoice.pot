@@ -1,0 +1,533 @@
+# Copyright (C) 2026 CatCode
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: IBAN Smart Invoice 0.1.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/iban-smart-invoice\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-05-17T20:15:29+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: iban-smart-invoice\n"
+
+#. Plugin Name of the plugin
+#: iban-smart-invoice.php
+#: includes/Admin/PaymentsPage.php:241
+#: includes/Gateway.php:28
+msgid "IBAN Smart Invoice"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: iban-smart-invoice.php
+msgid "https://catcode.com.ua/iban-smart-invoice"
+msgstr ""
+
+#. Description of the plugin
+#: iban-smart-invoice.php
+msgid "QR-код (NBU v002) + deep-links на Monobank/Privat24 на Thank You сторінці + автоматична детекція оплати через Monobank Personal API webhook."
+msgstr ""
+
+#. Author of the plugin
+#: iban-smart-invoice.php
+msgid "CatCode"
+msgstr ""
+
+#. Author URI of the plugin
+#: iban-smart-invoice.php
+msgid "https://catcode.com.ua"
+msgstr ""
+
+#: iban-smart-invoice.php:98
+msgid "IBAN Smart Invoice потребує активного WooCommerce."
+msgstr ""
+
+#: includes/Admin/PaymentsPage.php:36
+#: includes/Admin/PaymentsPage.php:37
+#: includes/Admin/PaymentsPage.php:90
+msgid "IBAN Payments"
+msgstr ""
+
+#: includes/Admin/PaymentsPage.php:54
+msgid "Зараховано"
+msgstr ""
+
+#: includes/Admin/PaymentsPage.php:56
+msgid "Часткова"
+msgstr ""
+
+#: includes/Admin/PaymentsPage.php:58
+#: includes/Admin/PaymentsPage.php:84
+msgid "Переплата"
+msgstr ""
+
+#: includes/Admin/PaymentsPage.php:60
+#: includes/Admin/PaymentsPage.php:80
+msgid "У черзі"
+msgstr ""
+
+#: includes/Admin/PaymentsPage.php:63
+msgid "Невідомий"
+msgstr ""
+
+#: includes/Admin/PaymentsPage.php:70
+#: includes/Admin/PaymentsPage.php:173
+#: includes/Admin/SettingsPage.php:67
+#: includes/Admin/SettingsPage.php:105
+msgid "Недостатньо прав."
+msgstr ""
+
+#: includes/Admin/PaymentsPage.php:79
+msgid "Всі"
+msgstr ""
+
+#: includes/Admin/PaymentsPage.php:81
+msgid "Невідомі"
+msgstr ""
+
+#: includes/Admin/PaymentsPage.php:82
+msgid "Зіставлені"
+msgstr ""
+
+#: includes/Admin/PaymentsPage.php:83
+msgid "Часткові"
+msgstr ""
+
+#: includes/Admin/PaymentsPage.php:107
+msgid "Дата"
+msgstr ""
+
+#: includes/Admin/PaymentsPage.php:108
+#: includes/Gateway.php:551
+#: includes/Gateway.php:566
+#: templates/thankyou-payment.php:115
+msgid "Сума"
+msgstr ""
+
+#: includes/Admin/PaymentsPage.php:109
+#: includes/Admin/PaymentsPage.php:267
+msgid "Призначення"
+msgstr ""
+
+#: includes/Admin/PaymentsPage.php:110
+msgid "Mono tx"
+msgstr ""
+
+#: includes/Admin/PaymentsPage.php:111
+msgid "Замовлення"
+msgstr ""
+
+#: includes/Admin/PaymentsPage.php:112
+msgid "Статус"
+msgstr ""
+
+#: includes/Admin/PaymentsPage.php:118
+msgid "Платежів немає."
+msgstr ""
+
+#: includes/Admin/PaymentsPage.php:150
+msgid "Прив'язати"
+msgstr ""
+
+#. translators: 1 payment id, 2 amount
+#: includes/Admin/PaymentsPage.php:209
+#, php-format
+msgid "IBAN: вручну прив'язано платіж #%1$d на %2$s."
+msgstr ""
+
+#. translators: 1 received amount, 2 expected amount
+#: includes/Admin/PaymentsPage.php:224
+#, php-format
+msgid "IBAN: вручну прив'язано часткову оплату %1$s з очікуваних %2$s. Замовлення лишається в очікуванні."
+msgstr ""
+
+#: includes/Admin/PaymentsPage.php:260
+msgid "Не оплата на IBAN."
+msgstr ""
+
+#: includes/Admin/PaymentsPage.php:270
+msgid "Платежів ще не отримано."
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:55
+msgid "Реєструю…"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:56
+msgid "Webhook зареєстровано ✔"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:57
+msgid "Помилка реєстрації"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:58
+#: includes/Gateway.php:501
+msgid "Скопійовано"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:72
+msgid "Спочатку збережіть Monobank token."
+msgstr ""
+
+#: includes/Blocks/IsiBlockSupport.php:62
+#: includes/Gateway.php:62
+msgid "Оплата на IBAN/картку (Monobank / Privat24)"
+msgstr ""
+
+#: includes/Gateway.php:29
+msgid "Оплата на IBAN з QR і deep-links Monobank/Privat24 та автоматичною детекцією через Monobank Personal API."
+msgstr ""
+
+#: includes/Gateway.php:53
+msgid "Активувати"
+msgstr ""
+
+#: includes/Gateway.php:55
+msgid "Показувати на сторінці оформлення замовлення"
+msgstr ""
+
+#: includes/Gateway.php:59
+msgid "Назва способу оплати"
+msgstr ""
+
+#: includes/Gateway.php:61
+msgid "Те, що бачить покупець у списку способів оплати."
+msgstr ""
+
+#: includes/Gateway.php:66
+msgid "Опис під назвою"
+msgstr ""
+
+#: includes/Gateway.php:68
+msgid "Показується покупцеві після того, як він обрав цей спосіб оплати."
+msgstr ""
+
+#: includes/Gateway.php:69
+msgid "QR-код і кнопки для Monobank та Privat24 — на наступній сторінці. Як тільки оплата надійде на рахунок, замовлення автоматично перейде у статус «В обробці»."
+msgstr ""
+
+#: includes/Gateway.php:74
+msgid "Реквізити отримувача"
+msgstr ""
+
+#: includes/Gateway.php:76
+msgid "Дані ФОП / юр. особи. Підставляються в QR і email-інструкції."
+msgstr ""
+
+#: includes/Gateway.php:79
+#: templates/thankyou-payment.php:96
+msgid "IBAN"
+msgstr ""
+
+#: includes/Gateway.php:83
+msgid "29 символів, починається з UA. Контрольна сума за ISO 13616."
+msgstr ""
+
+#: includes/Gateway.php:88
+#: includes/Gateway.php:546
+#: includes/Gateway.php:561
+#: templates/thankyou-payment.php:106
+msgid "Отримувач"
+msgstr ""
+
+#: includes/Gateway.php:91
+msgid "Назва ФОП / юр. особи як у банку."
+msgstr ""
+
+#: includes/Gateway.php:96
+#: templates/thankyou-payment.php:111
+msgid "ЄДРПОУ / ІПН"
+msgstr ""
+
+#: includes/Gateway.php:99
+msgid "Необов'язково. Деякі банки вимагають у призначенні платежу."
+msgstr ""
+
+#: includes/Gateway.php:103
+#: includes/Gateway.php:552
+#: includes/Gateway.php:567
+#: templates/thankyou-payment.php:124
+msgid "Призначення платежу"
+msgstr ""
+
+#: includes/Gateway.php:107
+msgid "Що клієнт побачить у полі «Призначення платежу» свого банку. <code>{order_id}</code> підставляється на номер замовлення (наприклад \"Оплата за замовлення #42\"). Токен <code>{order_id}</code> має лишитись у тексті — за ним плагін знаходить замовлення у виписці Monobank."
+msgstr ""
+
+#: includes/Gateway.php:111
+msgid "Що показувати покупцю на сторінці «Дякуємо»"
+msgstr ""
+
+#: includes/Gateway.php:115
+msgid "QR-код"
+msgstr ""
+
+#: includes/Gateway.php:117
+msgid "Показувати QR-код (клієнт сканує у своєму банку → сума і реквізити заповнюються автоматично)"
+msgstr ""
+
+#: includes/Gateway.php:121
+msgid "Кнопка «Відкрити в Monobank»"
+msgstr ""
+
+#: includes/Gateway.php:123
+msgid "Показувати кнопку швидкого переказу в додатку Monobank"
+msgstr ""
+
+#: includes/Gateway.php:127
+msgid "Посилання на твою банку Monobank"
+msgstr ""
+
+#: includes/Gateway.php:131
+msgid "Якщо у тебе є <strong>банка Monobank</strong> (накопичувальний рахунок) — встав сюди її посилання вигляду <code>https://send.monobank.ua/jar/abc123</code>. Кнопка відкриє Mono з вже заповненою сумою і призначенням. Залиш порожнім — кнопка не показуватиметься."
+msgstr ""
+
+#: includes/Gateway.php:135
+msgid "Кнопка «Відкрити в Privat24»"
+msgstr ""
+
+#: includes/Gateway.php:137
+msgid "Показувати кнопку швидкого переказу в Privat24"
+msgstr ""
+
+#: includes/Gateway.php:141
+msgid "Посилання на твій шаблон Privat24"
+msgstr ""
+
+#: includes/Gateway.php:145
+msgid "Якщо у тебе налаштований <strong>шаблон переказу в Privat24</strong> — встав сюди його посилання. Залиш порожнім якщо нема — кнопка не показуватиметься."
+msgstr ""
+
+#: includes/Gateway.php:155
+msgid "Автоматична детекція оплати"
+msgstr ""
+
+#: includes/Gateway.php:157
+msgid "Плагін отримує webhook від Monobank щойно гроші приходять і автоматично переводить замовлення у «В обробці». Працює за ~3 секунди."
+msgstr ""
+
+#: includes/Gateway.php:160
+msgid "Mono Personal API token"
+msgstr ""
+
+#: includes/Gateway.php:163
+msgid "Токен збережено. Введіть новий, щоб замінити."
+msgstr ""
+
+#. translators: %s: link
+#: includes/Gateway.php:166
+#, php-format
+msgid "Отримай безкоштовно на %s. Доступ read-only — плагін бачить лише твою виписку."
+msgstr ""
+
+#: includes/Gateway.php:172
+#: includes/Gateway.php:212
+msgid "Підключення Monobank"
+msgstr ""
+
+#: includes/Gateway.php:186
+msgid "Автоматична детекція оплати — Pro"
+msgstr ""
+
+#. translators: %s — link to upgrade
+#: includes/Gateway.php:190
+#, php-format
+msgid "У безкоштовній версії клієнт оплачує за QR-кодом, а ти підтверджуєш надходження вручну через WooCommerce → Замовлення. <br><br><strong>Pro-версія</strong> підключає Monobank Personal API webhook → замовлення автоматично переходить у «В обробці» за ~3 секунди після оплати. Без підписки — 490 грн один раз. %s"
+msgstr ""
+
+#: includes/Gateway.php:223
+msgid "Збережи Mono token (поле вище) і натисни «Save changes» — тоді з'явиться кнопка підключення."
+msgstr ""
+
+#: includes/Gateway.php:228
+msgid "Підключити Monobank"
+msgstr ""
+
+#: includes/Gateway.php:233
+msgid "Натисни цю кнопку — плагін повідомить Monobank на яку адресу слати виписку. Робиться один раз."
+msgstr ""
+
+#: includes/Gateway.php:238
+msgid "Технічні деталі (для розробників)"
+msgstr ""
+
+#: includes/Gateway.php:242
+msgid "URL який буде зареєстровано у Monobank:"
+msgstr ""
+
+#: includes/Gateway.php:247
+#: templates/thankyou-payment.php:101
+#: templates/thankyou-payment.php:120
+#: templates/thankyou-payment.php:129
+msgid "Скопіювати"
+msgstr ""
+
+#: includes/Gateway.php:250
+msgid "Перегенерувати секрет"
+msgstr ""
+
+#: includes/Gateway.php:254
+msgid "URL містить секретний токен (?token=) — без нього webhook не приймає запити. Перегенерація секрету одразу інвалідує старий URL, після цього треба натиснути «Підключити Monobank» ще раз."
+msgstr ""
+
+#: includes/Gateway.php:284
+msgid "IBAN не пройшов перевірку контрольної суми. Решта налаштувань збережена, IBAN — ні."
+msgstr ""
+
+#. translators: %s — призначення платежу
+#: includes/Gateway.php:353
+#, php-format
+msgid "Очікуємо оплату на IBAN. Призначення платежу: %s"
+msgstr ""
+
+#: includes/Gateway.php:459
+msgid "Замовлення оплачено. Дякуємо!"
+msgstr ""
+
+#. translators: %s: overpayment amount
+#: includes/Gateway.php:465
+#, php-format
+msgid "Ви переплатили %s — ми звʼяжемось з вами для повернення різниці або зарахування на наступне замовлення."
+msgstr ""
+
+#: includes/Gateway.php:502
+msgid "Не вдалося скопіювати"
+msgstr ""
+
+#: includes/Gateway.php:503
+msgid "Платіж отримано — оновлюємо сторінку…"
+msgstr ""
+
+#: includes/Gateway.php:504
+msgid "Отримано {received} ₴ з {expected} ₴. Доплатіть ще {remaining} ₴ щоб завершити замовлення."
+msgstr ""
+
+#: includes/Gateway.php:543
+msgid "Реквізити для оплати:"
+msgstr ""
+
+#: includes/Gateway.php:557
+msgid "Реквізити для оплати"
+msgstr ""
+
+#: includes/Gateway.php:569
+msgid "Після зарахування коштів замовлення автоматично перейде у статус «В обробці»."
+msgstr ""
+
+#. translators: 1: received this time, 2: prev sum, 3: tx id
+#: includes/OrderMatcher.php:129
+#, php-format
+msgid "IBAN: отримано доплату %1$s (раніше %2$s, Mono tx %3$s). Замовлення завершено."
+msgstr ""
+
+#. translators: 1: amount, 2: tx id
+#: includes/OrderMatcher.php:136
+#, php-format
+msgid "IBAN: отримано платіж %1$s (Mono tx %2$s)."
+msgstr ""
+
+#. translators: 1: this payment, 2: total received so far, 3: remaining
+#: includes/OrderMatcher.php:150
+#, php-format
+msgid "IBAN: отримано доплату %1$s (всього %2$s з очікуваних). Лишилось %3$s."
+msgstr ""
+
+#. translators: 1: received, 2: expected
+#: includes/OrderMatcher.php:157
+#, php-format
+msgid "IBAN: часткова оплата %1$s з очікуваних %2$s. Замовлення лишається в очікуванні."
+msgstr ""
+
+#. translators: 1: total received, 2: expected, 3: overpayment
+#: includes/OrderMatcher.php:173
+#, php-format
+msgid "IBAN: переплата — отримано всього %1$s, очікувалось %2$s (різниця %3$s). Потрібна ручна перевірка."
+msgstr ""
+
+#. translators: %s: overpayment amount
+#: includes/OrderMatcher.php:182
+#, php-format
+msgid "Дякуємо за оплату! Ви переплатили %s — ми звʼяжемось з вами для повернення різниці або зарахування на наступне замовлення."
+msgstr ""
+
+#. translators: %s — link
+#: includes/Plugin.php:91
+#, php-format
+msgid "IBAN Smart Invoice увімкнено, але не задано IBAN. Метод оплати приховано від покупців доки %s."
+msgstr ""
+
+#: includes/Plugin.php:92
+msgid "налаштування не заповнено"
+msgstr ""
+
+#: includes/RestController.php:47
+msgid "Замовлення не знайдено."
+msgstr ""
+
+#: includes/RestController.php:50
+msgid "Невірний ключ замовлення."
+msgstr ""
+
+#: templates/thankyou-payment.php:41
+msgid "Оплата на IBAN"
+msgstr ""
+
+#. translators: 1: received, 2: expected
+#: templates/thankyou-payment.php:50
+#, php-format
+msgid "Отримано %1$s з %2$s."
+msgstr ""
+
+#. translators: %s: remaining amount
+#: templates/thankyou-payment.php:60
+#, php-format
+msgid "Доплатіть ще %s — QR і реквізити нижче вже містять суму, що лишилась."
+msgstr ""
+
+#: templates/thankyou-payment.php:68
+msgid "Відскануйте QR-код у вашому банк-додатку — IBAN, сума та призначення заповняться автоматично. Як тільки платіж надійде, замовлення оновиться без перезавантаження."
+msgstr ""
+
+#: templates/thankyou-payment.php:77
+msgid "QR-код для оплати на IBAN"
+msgstr ""
+
+#: templates/thankyou-payment.php:80
+msgid "Скануй QR у банк-додатку — реквізити заповняться автоматично"
+msgstr ""
+
+#: templates/thankyou-payment.php:85
+msgid "Або відкрити в банк-додатку"
+msgstr ""
+
+#: templates/thankyou-payment.php:88
+msgid "Зручно якщо купуєш з телефону: банк відкриється з заповненими реквізитами"
+msgstr ""
+
+#: templates/thankyou-payment.php:100
+msgid "Скопіювати IBAN"
+msgstr ""
+
+#: templates/thankyou-payment.php:119
+msgid "Скопіювати суму"
+msgstr ""
+
+#: templates/thankyou-payment.php:128
+msgid "Скопіювати призначення"
+msgstr ""
+
+#: templates/thankyou-payment.php:139
+msgid "Відкрити в Monobank (банка)"
+msgstr ""
+
+#: templates/thankyou-payment.php:145
+msgid "Відкрити в Privat24"
+msgstr ""
+
+#: templates/thankyou-payment.php:156
+msgid "Очікуємо надходження платежу…"
+msgstr ""
