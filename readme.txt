@@ -5,7 +5,7 @@ Requires at least: 6.5
 Tested up to: 7.0
 Requires PHP: 8.0
 Requires Plugins: woocommerce
-Stable tag: 0.1.8
+Stable tag: 0.1.9
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -101,6 +101,9 @@ Server-side payment auto-detection via the Monobank Personal API (the only exter
 
 == Changelog ==
 
+= 0.1.9 =
+* Removed an internal development note (`_dev/`) that was accidentally included in the distributed package. No code changes.
+
 = 0.1.8 =
 * Fixed an invalid Privacy Policy URL in the External services section (PrivatBank link updated to a working page).
 * Corrected the Contributors username to `catcodestudio`.
@@ -112,9 +115,6 @@ Server-side payment auto-detection via the Monobank Personal API (the only exter
   * Pinned `chillerlan/php-qrcode` to the latest 6.x release in `composer.lock` (the 0.1.4 build still shipped 5.x in `vendor/` despite the changelog claim).
   * Added an explicit `== External services ==` section to the readme documenting that the free plugin makes no outbound HTTP calls, plus the NBU / Monobank / Privat24 deep-link payload destinations.
   * Extended `.distignore` so vendor `LICENSE-ASL-2.0`, `NOTICE`, `CHANGELOG.md` and other auxiliary files no longer ship inside the production ZIP.
-
-= 0.1.5 =
-* Version bumped to align with the IBAN Smart Invoice — Pro add-on 0.1.5 release (license-client rollout in Pro). No user-facing changes to the free plugin.
 
 = 0.1.4 =
 * Free / Pro split: automatic payment detection (Monobank Personal API webhook + Order Matcher + admin IBAN Payments journal + Thank-You polling) has been moved to a separate "IBAN Smart Invoice — Pro" add-on hosted off the .org repo. The free version stays fully functional — QR + IBAN + deep-link buttons + email instructions + manual confirmation in WooCommerce → Orders.
@@ -143,14 +143,14 @@ Server-side payment auto-detection via the Monobank Personal API (the only exter
 
 == Upgrade Notice ==
 
+= 0.1.9 =
+Packaging cleanup only. Non-breaking.
+
 = 0.1.8 =
 Readme metadata fixes (valid policy URL, contributor username). Non-breaking.
 
 = 0.1.6 =
 WordPress.org compliance pass: option / hook prefix changed from `isi_` to `isipay_`. If you wrote a custom theme or extension that hooks into our filters, update the names. CSS classes are unchanged.
-
-= 0.1.5 =
-Version sync with the Pro add-on. No functional changes to the free plugin.
 
 = 0.1.4 =
 Auto-detection moved into a separate Pro add-on. The free version keeps QR + deep-links + manual reconciliation and is now fully .org-compliant. Recommended upgrade.
