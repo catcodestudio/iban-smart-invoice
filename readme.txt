@@ -166,3 +166,12 @@ NBU v002 QR + Blocks checkout + partial payment accumulation. Recommended upgrad
 
 = 0.1.0 =
 First public release.
+
+
+== CatCode ==
+
+Модуль розробляє і підтримує студія CatCode — https://catcode.com.ua
+
+Сторінка модуля з документацією та ліцензією: https://catcode.com.ua/modules/iban-smart-invoice/
+Усі наші модулі для OpenCart та WooCommerce: https://catcode.com.ua/modules/
+Підтримка: catcode.info@gmail.com
